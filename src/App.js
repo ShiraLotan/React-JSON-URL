@@ -19,12 +19,18 @@ function App() {
           method: 'GET',
           headers: {
             'Accept': 'application/json',
+            'Access-Control-Allow-Origin': '*'
           }
-        });
-        const json = await res.json();
-        setError(false);
-        setLoading(false);
-        setJson(json);
+        })
+        if(!res.ok){
+          setError(true);
+          throw new Error('Network response was not ok');
+        }else{
+          const json = await res.json();
+          setError(false);
+          setLoading(false);
+          setJson(json);
+        }
       }catch(error){
         setError(true);
         setLoading(false);
