@@ -1,3 +1,29 @@
+App Design:
+
+
+1. App component is the main container for the entire App.
+
+2. App hold ErrorUrl, SiteJson, SiteUrl components.
+
+3. Cross-Origin Resource Sharing (CORS) - is used to determine whether or not the resource can be accessed by content operating within the current origin. Since the server is not under my control, I configured it to allow any site to access it by using the * wildcard. The wildcard will only works for requests made with the crossorigin attribute set to anonymous. 
+
+4. To allow any site to make CORS requests without using the * wildcard, the server must read the value of the request's Origin header and use that value to set Access-Control-Allow-Origin, and must also set a Vary: Origin header to indicate that some headers are being set dynamically depending on the origin.
+
+5. External libraries: Bootstrap, react-json-tree
+
+6. Please make sure to enter a valid URL to prevent 404 error 
+
+7. Any result back from the server (404, 500, etc...) is considered a successful request from the promise point of view. 
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

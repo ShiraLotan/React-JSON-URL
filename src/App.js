@@ -25,6 +25,7 @@ function App() {
         if(!res.ok){
           setError(true);
           throw new Error('Network response was not ok');
+          // Please read the README file
         }else{
           const json = await res.json();
           setError(false);
