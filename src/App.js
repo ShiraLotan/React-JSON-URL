@@ -26,7 +26,14 @@ function App() {
           const json = await res.json();
           setError(false);
           setLoading(false);
-          setJson(json);
+
+          if(Array.isArray(json)){
+            setJson(json)
+          }else{
+            const newArr = [];
+            newArr.push(json)
+            setJson(newArr)
+          }
         }
       }catch(error){
         setError(true);
