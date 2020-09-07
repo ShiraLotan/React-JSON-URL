@@ -25,7 +25,6 @@ function App() {
         }else{
           const json = await res.json();
           setError(false);
-          console.log(json)
           setLoading(false);
           setJson(json);
         }
