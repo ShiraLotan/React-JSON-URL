@@ -1,0 +1,15 @@
+.obj-key{
+    font-size: 17px;
+    font-weight: 700;
+}
+.obj-val{
+    font-size: 14px;
+    font-weight: 300;
+}
+.object-note{
+    color: green;
+}
+
+.object-id{
+    text-decoration: underline;
+}

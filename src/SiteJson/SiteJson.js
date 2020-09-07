@@ -5,7 +5,7 @@ function SiteJson({jsonData}) {
 
   return (  
     <div className="SiteJson">
-        {jsonData ? jsonData.map((item, i)=>  <JsonItem key={i} item={item}/>): null}
+        {jsonData ? jsonData.map((item, i)=>  <JsonItem key={i} item={item} isParent={true}/>): null}
     </div>
   );
 }
