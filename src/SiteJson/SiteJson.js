@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import JSONTree from 'react-json-tree';
-import theme from '../themeStyle/ThemeStyle';
+import JsonItem from '../jsonItem/JsonItem';
 
 function SiteJson({jsonData}) {
-  
+
   return (  
     <div className="SiteJson">
-        <JSONTree theme={theme} data={jsonData} invertTheme={true} /> 
+        {jsonData ? jsonData.map((item, i)=>  <JsonItem key={i} item={item}/>): null}
     </div>
   );
 }

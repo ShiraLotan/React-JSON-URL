@@ -16,11 +16,7 @@ function App() {
     const fetchData = async () => {
       try{
         const res = await fetch(siteUrl,{
-          method: 'GET',
-          headers: {
-            'Accept': 'application/json',
-            'Access-Control-Allow-Origin': '*'
-          }
+          method: 'GET'
         })
         if(!res.ok){
           setError(true);
@@ -29,6 +25,7 @@ function App() {
         }else{
           const json = await res.json();
           setError(false);
+          console.log(json)
           setLoading(false);
           setJson(json);
         }
