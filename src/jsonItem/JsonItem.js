@@ -13,28 +13,33 @@ function JsonItem({item, isParent}) {
     useEffect(() => {
             if(!item.length){
                 const propertyNames = Object.keys(item);
-                const propertyVal = Object.values(item);
-                const valueToString = propertyVal.map(item=>{
-                    let setItem;
-                    if(item){
-                        if(typeof(item) !=="object" && !Array.isArray(item)){
-                            setItem = item.toString();
-                        }
-                        setItem = item;
-                    }
-                    return setItem;
-                });
-        
+                const propertyVal = Object.values(item).map(v => !v ? `${v}`: v===true ? `${v}`: v);
+                const valueToString = handleObjectValues(propertyVal)
+
                 setObjVal(valueToString);
                 setObjKey(propertyNames);
 
             }else{
+                const adjustArr = item.map(v => !v ? `${v}`: v===true ? `${v}`: v);
+                const setValues = handleObjectValues(adjustArr);
+                
                 setObjVal([]);
-                setObjVal(item);
+                setObjVal(setValues);
                 setArr(true);
             }
     }, [item]);
 
+    const handleObjectValues = (list) => {
+       return list.map(item=>{
+            let setItem;
+            if(item){
+                if(typeof(item) !=="object" && !Array.isArray(item)){
+                    setItem = item + '';
+                }
+                setItem = item;
+            }
+            return setItem;
+        });}
   
   return (  
 
