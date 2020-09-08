@@ -1,0 +1,391 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "vpge-tj3s",
+      "name" : "Sales Tax Rates",
+      "averageRating" : 0,
+      "category" : "Revenue",
+      "createdAt" : 1493240425,
+      "description" : "Sales Tax Rates - Feeds - http://dor-test.mo.gov/tax/business/sales/taxcards/",
+      "displayType" : "table",
+      "downloadCount" : 172204,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1550787242,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 25878985,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1493320478,
+      "publicationGroup" : 14170947,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1493320434,
+      "rowsUpdatedBy" : "wwxh-sgxy",
+      "tableId" : 14172934,
+      "totalTimesRated" : 0,
+      "viewCount" : 369,
+      "viewLastModified" : 1555989863,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1493320478,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 798089,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1493320478,
+        "workflowId" : 2177,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "wwxh-sgxy",
+          "displayName" : "Renee Wright"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 299991892,
+        "name" : "County",
+        "dataTypeName" : "text",
+        "fieldName" : "county",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 46727035,
+        "width" : 374,
+        "cachedContents" : {
+          "largest" : "Wright County",
+          "non_null" : 2129,
+          "null" : "0",
+          "top" : [ {
+            "item" : "St Louis County",
+            "count" : "299"
+          }, {
+            "item" : "Jackson County",
+            "count" : "80"
+          }, {
+            "item" : "St Charles County",
+            "count" : "59"
+          }, {
+            "item" : "Jefferson County",
+            "count" : "45"
+          }, {
+            "item" : "Clay County",
+            "count" : "42"
+          }, {
+            "item" : "St Louis City",
+            "count" : "38"
+          }, {
+            "item" : "Cass County",
+            "count" : "37"
+          }, {
+            "item" : "Platte County",
+            "count" : "33"
+          }, {
+            "item" : "Franklin County",
+            "count" : "32"
+          }, {
+            "item" : "Taney County",
+            "count" : "29"
+          }, {
+            "item" : "Jasper County",
+            "count" : "28"
+          }, {
+            "item" : "Boone County",
+            "count" : "27"
+          }, {
+            "item" : "Greene County",
+            "count" : "26"
+          }, {
+            "item" : "Newton County",
+            "count" : "25"
+          }, {
+            "item" : "Ozark County",
+            "count" : "24"
+          }, {
+            "item" : "Scott County",
+            "count" : "23"
+          }, {
+            "item" : "Cape Girardeau County",
+            "count" : "21"
+          }, {
+            "item" : "Christian County",
+            "count" : "21"
+          }, {
+            "item" : "Pemiscot County",
+            "count" : "20"
+          }, {
+            "item" : "Texas County",
+            "count" : "20"
+          } ],
+          "smallest" : "Adair County",
+          "not_null" : "2129",
+          "cardinality" : "220"
+        },
+        "format" : { }
+      }, {
+        "id" : 299991893,
+        "name" : "SalesTax",
+        "dataTypeName" : "number",
+        "fieldName" : "salestax",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 46727036,
+        "width" : 163,
+        "cachedContents" : {
+          "largest" : "0.10679",
+          "non_null" : 2129,
+          "average" : "0.07257147017379051",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0.06225",
+            "count" : "147"
+          }, {
+            "item" : "0.06725",
+            "count" : "118"
+          }, {
+            "item" : "0.05725",
+            "count" : "97"
+          }, {
+            "item" : "0.05225",
+            "count" : "80"
+          }, {
+            "item" : "0.08363",
+            "count" : "78"
+          }, {
+            "item" : "0.06475",
+            "count" : "74"
+          }, {
+            "item" : "0.061",
+            "count" : "74"
+          }, {
+            "item" : "0.07725",
+            "count" : "62"
+          }, {
+            "item" : "0.07225",
+            "count" : "61"
+          }, {
+            "item" : "0.07475",
+            "count" : "53"
+          }, {
+            "item" : "0.08225",
+            "count" : "53"
+          }, {
+            "item" : "0.08613",
+            "count" : "51"
+          }, {
+            "item" : "0.05975",
+            "count" : "50"
+          }, {
+            "item" : "0.056",
+            "count" : "47"
+          }, {
+            "item" : "0.07975",
+            "count" : "47"
+          }, {
+            "item" : "0.07613",
+            "count" : "45"
+          }, {
+            "item" : "0.06975",
+            "count" : "41"
+          }, {
+            "item" : "0.08113",
+            "count" : "40"
+          }, {
+            "item" : "0.08975",
+            "count" : "37"
+          }, {
+            "item" : "0.081",
+            "count" : "36"
+          } ],
+          "smallest" : "0.04725",
+          "not_null" : "2129",
+          "sum" : "154.50466",
+          "cardinality" : "125"
+        },
+        "format" : { }
+      }, {
+        "id" : 299991894,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 3,
+        "renderTypeName" : "location",
+        "tableColumnId" : 46727037,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 299991858,
+        "name" : "School Districts",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_ny2h_ckbz",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 46773389,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_ny2h-ckbz",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 299991859,
+        "name" : "Missouri Counties",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_c8ar_jsdj",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 46773390,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_c8ar-jsdj",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 299991860,
+        "name" : "Counties",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_ikxf_gfzr",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 46773391,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_ikxf-gfzr",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "wwxh-sgxy",
+        "displayName" : "Renee Wright",
+        "profileImageUrlLarge" : "/api/users/wwxh-sgxy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/wwxh-sgxy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/wwxh-sgxy/profile_images/TINY",
+        "screenName" : "Renee Wright",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "wwxh-sgxy",
+        "displayName" : "Renee Wright",
+        "profileImageUrlLarge" : "/api/users/wwxh-sgxy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/wwxh-sgxy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/wwxh-sgxy/profile_images/TINY",
+        "screenName" : "Renee Wright",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula" ]
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType", "unsaved" ]
+    }
+  },
+  "data": [
+    [ "row-v6m4~b7vu.qgpj", "00000000-0000-0000-3946-258CA274A35C", 0, 1493320412, null, 1493320412, null, "{ }", "Andrew County", "0.05925", null, null, null, null ],
+    [ "row-v6m4~b7vu.qgpj", "00000000-0000-0000-3946-258CA274A35C", 0, 1493320412, null, 1493320412, null, "{ }", "Andrew County", "0.05925", null, null, null, null ]
+
+  ]
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import JsonItem from '../jsonItem/JsonItem';
 
-function SiteJson({jsonData}) {
+function SiteJson( {jsonData} ) {
 
   return (  
     <div className="SiteJson">

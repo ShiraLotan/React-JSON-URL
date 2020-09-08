@@ -5,6 +5,7 @@ import './App.css';
 import ErrorUrl from './errorUrl/ErrorUrl';
 import Spinner from 'react-bootstrap/Spinner';
 import Container from 'react-bootstrap/Container';
+// import jsonMok from './mok.json';
 
 function App() {
   const [jsonDate, setJson] = useState('');
@@ -29,7 +30,7 @@ function App() {
 
           if(Array.isArray(json)){
             setJson(json)
-          }else{
+          }else {
             const newArr = [];
             newArr.push(json)
             setJson(newArr)
