@@ -9,7 +9,7 @@ function SingleItemArr({item}) {
 
   return (  
     <div className="SingleItemArr">
-        <Button onClick={() => setOpen(!open)} aria-controls="child-fade-text" aria-expanded={open}></Button>[] {item.length ? <span>{item.length}</span>: <span>Empty</span>}
+        <Button variant={open ? "danger" : "primary"} onClick={() => setOpen(!open)} aria-controls="child-fade-text" aria-expanded={open}></Button>[] {item.length ? <span>{item.length}</span>: <span>Empty</span>}
         <Collapse in={open} >
             <div id="child-collapse-text">
               {item ? item.map((childItem, i) => typeof(childItem)==='object' ? <JsonItem key={i} item={childItem}/> : Array.isArray(childItem) ? <SingleItemArr key={i} item={childItem}/>: <span key={i}>childItem</span>): null}
