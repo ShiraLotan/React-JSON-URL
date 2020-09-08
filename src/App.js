@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import SiteJson from './SiteJson/SiteJson';
-import SiteUrl from './siteUrl/SiteUrl';
+import SiteJson from './components/SiteJson/SiteJson';
+import SiteUrl from './components/siteUrl/SiteUrl';
 import './App.css';
-import ErrorUrl from './errorUrl/ErrorUrl';
+import ErrorUrl from './components/errorUrl/ErrorUrl';
 import Spinner from 'react-bootstrap/Spinner';
 import Container from 'react-bootstrap/Container';
 
